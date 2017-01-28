@@ -12,6 +12,8 @@ namespace GameTicTac
 {
     public partial class Form1 : Form
     {
+
+
         bool turn = true;
         int turn_count = 0;
         public Form1()
@@ -61,9 +63,6 @@ namespace GameTicTac
                 there_is_awinner = true;
             else if ((A3.Text == A5.Text) && (A5.Text == A7.Text) && (!A7.Enabled))
                 there_is_awinner = true;
-           
-
-
 
             if (there_is_awinner)
             {
@@ -83,6 +82,7 @@ namespace GameTicTac
             }
 
         }
+        
         private void DisabeleButton()
         {
             try
@@ -113,5 +113,33 @@ namespace GameTicTac
             }
             catch { }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        /*  private void newgame()
+          {
+              if (turn_count == 9)
+                  turn = true;
+              turn_count = 0;
+              try
+              {
+                  foreach (Component c in Controls)
+                  {
+                      Button b = (Button)c;
+                      b.Enabled = true;
+                      b.Text = "";
+                  }
+              }
+              catch { }
+          }
+          */
     }
 }

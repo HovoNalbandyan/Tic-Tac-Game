@@ -53,9 +53,10 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(354, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(305, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // fileToolStripMenuItem
             // 
@@ -89,81 +90,82 @@
             // 
             // A1
             // 
-            this.A1.Location = new System.Drawing.Point(12, 55);
+            this.A1.ForeColor = System.Drawing.Color.Black;
+            this.A1.Location = new System.Drawing.Point(12, 27);
             this.A1.Name = "A1";
-            this.A1.Size = new System.Drawing.Size(55, 55);
+            this.A1.Size = new System.Drawing.Size(90, 90);
             this.A1.TabIndex = 1;
             this.A1.UseVisualStyleBackColor = true;
             this.A1.Click += new System.EventHandler(this.button_click);
             // 
             // A2
             // 
-            this.A2.Location = new System.Drawing.Point(73, 55);
+            this.A2.Location = new System.Drawing.Point(108, 27);
             this.A2.Name = "A2";
-            this.A2.Size = new System.Drawing.Size(55, 55);
+            this.A2.Size = new System.Drawing.Size(90, 90);
             this.A2.TabIndex = 2;
             this.A2.UseVisualStyleBackColor = true;
             this.A2.Click += new System.EventHandler(this.button_click);
             // 
             // A3
             // 
-            this.A3.Location = new System.Drawing.Point(134, 55);
+            this.A3.Location = new System.Drawing.Point(204, 27);
             this.A3.Name = "A3";
-            this.A3.Size = new System.Drawing.Size(55, 55);
+            this.A3.Size = new System.Drawing.Size(90, 90);
             this.A3.TabIndex = 3;
             this.A3.UseVisualStyleBackColor = true;
             this.A3.Click += new System.EventHandler(this.button_click);
             // 
             // A4
             // 
-            this.A4.Location = new System.Drawing.Point(12, 116);
+            this.A4.Location = new System.Drawing.Point(12, 123);
             this.A4.Name = "A4";
-            this.A4.Size = new System.Drawing.Size(55, 55);
+            this.A4.Size = new System.Drawing.Size(90, 90);
             this.A4.TabIndex = 4;
             this.A4.UseVisualStyleBackColor = true;
             this.A4.Click += new System.EventHandler(this.button_click);
             // 
             // A5
             // 
-            this.A5.Location = new System.Drawing.Point(73, 116);
+            this.A5.Location = new System.Drawing.Point(108, 123);
             this.A5.Name = "A5";
-            this.A5.Size = new System.Drawing.Size(55, 55);
+            this.A5.Size = new System.Drawing.Size(90, 90);
             this.A5.TabIndex = 5;
             this.A5.UseVisualStyleBackColor = true;
             this.A5.Click += new System.EventHandler(this.button_click);
             // 
             // A6
             // 
-            this.A6.Location = new System.Drawing.Point(134, 116);
+            this.A6.Location = new System.Drawing.Point(204, 123);
             this.A6.Name = "A6";
-            this.A6.Size = new System.Drawing.Size(55, 55);
+            this.A6.Size = new System.Drawing.Size(90, 90);
             this.A6.TabIndex = 6;
             this.A6.UseVisualStyleBackColor = true;
             this.A6.Click += new System.EventHandler(this.button_click);
             // 
             // A7
             // 
-            this.A7.Location = new System.Drawing.Point(12, 177);
+            this.A7.Location = new System.Drawing.Point(12, 221);
             this.A7.Name = "A7";
-            this.A7.Size = new System.Drawing.Size(55, 55);
+            this.A7.Size = new System.Drawing.Size(90, 90);
             this.A7.TabIndex = 7;
             this.A7.UseVisualStyleBackColor = true;
             this.A7.Click += new System.EventHandler(this.button_click);
             // 
             // A8
             // 
-            this.A8.Location = new System.Drawing.Point(73, 177);
+            this.A8.Location = new System.Drawing.Point(108, 221);
             this.A8.Name = "A8";
-            this.A8.Size = new System.Drawing.Size(55, 55);
+            this.A8.Size = new System.Drawing.Size(90, 90);
             this.A8.TabIndex = 8;
             this.A8.UseVisualStyleBackColor = true;
             this.A8.Click += new System.EventHandler(this.button_click);
             // 
             // A9
             // 
-            this.A9.Location = new System.Drawing.Point(134, 177);
+            this.A9.Location = new System.Drawing.Point(204, 221);
             this.A9.Name = "A9";
-            this.A9.Size = new System.Drawing.Size(55, 55);
+            this.A9.Size = new System.Drawing.Size(90, 90);
             this.A9.TabIndex = 9;
             this.A9.UseVisualStyleBackColor = true;
             this.A9.Click += new System.EventHandler(this.button_click);
@@ -179,7 +181,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(354, 323);
+            this.ClientSize = new System.Drawing.Size(305, 323);
             this.Controls.Add(this.A9);
             this.Controls.Add(this.A8);
             this.Controls.Add(this.A7);
@@ -191,8 +193,11 @@
             this.Controls.Add(this.A1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.ShowIcon = false;
+            this.Text = "X vs O";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
