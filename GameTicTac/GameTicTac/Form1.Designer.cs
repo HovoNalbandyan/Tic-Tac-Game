@@ -90,6 +90,7 @@
             // 
             // A1
             // 
+            this.A1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.A1.ForeColor = System.Drawing.Color.Black;
             this.A1.Location = new System.Drawing.Point(12, 27);
             this.A1.Name = "A1";
@@ -100,6 +101,7 @@
             // 
             // A2
             // 
+            this.A2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.A2.Location = new System.Drawing.Point(108, 27);
             this.A2.Name = "A2";
             this.A2.Size = new System.Drawing.Size(90, 90);
@@ -109,6 +111,7 @@
             // 
             // A3
             // 
+            this.A3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.A3.Location = new System.Drawing.Point(204, 27);
             this.A3.Name = "A3";
             this.A3.Size = new System.Drawing.Size(90, 90);
@@ -118,6 +121,7 @@
             // 
             // A4
             // 
+            this.A4.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.A4.Location = new System.Drawing.Point(12, 123);
             this.A4.Name = "A4";
             this.A4.Size = new System.Drawing.Size(90, 90);
@@ -127,6 +131,7 @@
             // 
             // A5
             // 
+            this.A5.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.A5.Location = new System.Drawing.Point(108, 123);
             this.A5.Name = "A5";
             this.A5.Size = new System.Drawing.Size(90, 90);
@@ -136,6 +141,7 @@
             // 
             // A6
             // 
+            this.A6.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.A6.Location = new System.Drawing.Point(204, 123);
             this.A6.Name = "A6";
             this.A6.Size = new System.Drawing.Size(90, 90);
@@ -145,6 +151,7 @@
             // 
             // A7
             // 
+            this.A7.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.A7.Location = new System.Drawing.Point(12, 221);
             this.A7.Name = "A7";
             this.A7.Size = new System.Drawing.Size(90, 90);
@@ -154,6 +161,7 @@
             // 
             // A8
             // 
+            this.A8.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.A8.Location = new System.Drawing.Point(108, 221);
             this.A8.Name = "A8";
             this.A8.Size = new System.Drawing.Size(90, 90);
@@ -163,6 +171,7 @@
             // 
             // A9
             // 
+            this.A9.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.A9.Location = new System.Drawing.Point(204, 221);
             this.A9.Name = "A9";
             this.A9.Size = new System.Drawing.Size(90, 90);
