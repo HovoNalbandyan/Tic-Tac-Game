@@ -72,7 +72,7 @@ namespace GameTicTac
                     winner = "O";
                 else
                     winner = "X";
-                MessageBox.Show(winner+" "+"Wins");
+                MessageBox.Show(winner+" "+"Wins");//Show winner name 
              }
             else
             {

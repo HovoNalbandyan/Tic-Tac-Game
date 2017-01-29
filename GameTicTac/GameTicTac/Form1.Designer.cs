@@ -43,6 +43,7 @@
             this.A8 = new System.Windows.Forms.Button();
             this.A9 = new System.Windows.Forms.Button();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -231,6 +232,7 @@
         private System.Windows.Forms.Button A7;
         private System.Windows.Forms.Button A8;
         private System.Windows.Forms.Button A9;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 
