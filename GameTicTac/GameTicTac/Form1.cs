@@ -21,7 +21,7 @@ namespace GameTicTac
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello Anaasun");
+            MessageBox.Show("Hello ");
         }
 
         private void button_click(object sender, EventArgs e)
